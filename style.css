@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    
+}
+
+h2 {
+    font-size: 2em;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: none;
+    padding: 2%;
+    background-color: #FFF;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 70%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.choice-container button {
+    width: 25%;
+}
+
+#outcome-icon {
+    height: 250px;    
+    width: auto;
+}
+
+#play-again-button {
+    margin: 0 auto;
+    width: 25%;
+}
